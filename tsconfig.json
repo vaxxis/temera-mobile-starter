@@ -1,0 +1,43 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "checkJs": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "experimentalDecorators": true,
+    "esModuleInterop": true,
+    "isolatedModules": false,
+    "resolveJsonModule": true,
+    "noUnusedLocals": true,
+    "noImplicitAny": false,
+    "jsx": "react",
+    "lib": ["es6", "esnext"],
+    "moduleResolution": "node",
+    "noEmit": true,
+    "strict": true,
+    "target": "esnext",
+    "baseUrl": "./src",
+    "paths": {
+      "@AppStore": ["./AppStore.ts"],
+
+      "@components": ["components"],
+
+      "@screens": ["screens"],
+      "@screens/*": ["screens/*"],
+
+      "@utils": ["utils"],
+      "@utils/*": ["utils/*"],
+
+      "@api": ["api"],
+      "@api/*": ["api/*"],
+
+      "@types": ["types"],
+      "@types/*": ["types/*"],
+
+      "@config": ["config"],
+      "@config/*": ["config/*"],
+    }
+  },
+  "exclude": ["node_modules", "babel.config.js", "metro.config.js", "jest.config.js"]
+}
