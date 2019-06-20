@@ -139,7 +139,6 @@ android {
 
 dependencies {
     implementation project(':react-native-vector-icons')
-    implementation project(':react-native-sound')
     implementation project(':react-native-i18n')
     implementation project(':react-native-device-info')
     implementation project(':react-native-bottomsheet')
