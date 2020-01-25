@@ -18,7 +18,7 @@
 		008F07F21AC5B25A0029DE68 /* main.jsbundle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = main.jsbundle; sourceTree = "<group>"; };
 		013B4ABCBEDA081D5896652D /* Pods-TemeraMobileStarter-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TemeraMobileStarter-tvOS.release.xcconfig"; path = "Target Support Files/Pods-TemeraMobileStarter-tvOS/Pods-TemeraMobileStarter-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		0D7B5C908BAFA680D4D01D83 /* libPods-TemeraMobileStarter-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TemeraMobileStarter-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07F961A680F5B00A75B9A /* t! Starter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "t! Starter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07F961A680F5B00A75B9A /* TemeraMobileStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TemeraMobileStarter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = TemeraMobileStarter/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = TemeraMobileStarter/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -102,7 +102,7 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* t! Starter.app */,
+				13B07F961A680F5B00A75B9A /* TemeraMobileStarter.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,7 +143,7 @@
 			);
 			name = TemeraMobileStarter;
 			productName = TemeraMobileStarter;
-			productReference = 13B07F961A680F5B00A75B9A /* t! Starter.app */;
+			productReference = 13B07F961A680F5B00A75B9A /* TemeraMobileStarter.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -339,7 +339,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = it.temera.mobilestarter;
-				PRODUCT_NAME = "t! Starter";
+				PRODUCT_NAME = "TemeraMobileStarter";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
@@ -360,7 +360,7 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = it.temera.mobilestarter;
-				PRODUCT_NAME = "t! Starter";
+				PRODUCT_NAME = "TemeraMobileStarter";
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
