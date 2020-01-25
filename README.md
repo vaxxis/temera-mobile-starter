@@ -15,3 +15,7 @@ Follow the instructions below to init a new temera mobile project:
 ## Changelog
 
 - [25/01/20] Upgrade to react-native v0.61.5
+
+## Troubleshooting
+
+- When building on android you will have an errore with the react-native-i18n. Follow the Android Studio recomendations and remove the `<uses-sdk android:minSdkVersion="16" />` from the library AndroidManifest.xml then try to build again.
