@@ -1,6 +1,7 @@
-# temera-mobile-starter
+# temera-mobile-starter (deprecated)
 
 Repository to start a new react-native mobile project in temera.
+**Using deprecated navigator**
 
 ## Howto
 
